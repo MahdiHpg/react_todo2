@@ -1,0 +1,72 @@
+.todoListsStyles {
+  width: 100%;
+  height: 100vh;
+  display: block;
+  text-align: center;
+  margin: 20px 0 0 0;
+  color: #fff;
+  .card {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 7px;
+    background-color: #939393;
+    .card-body {
+      width: 100%;
+      height: auto;
+      display: block;
+      .listItemStyles {
+        width: 100%;
+        height: auto;
+        display: block;
+        ul {
+          width: 100%;
+          height: auto;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          justify-content: center;
+          align-items: center;
+          background-color: #3a3a3a;
+          color: #fff;
+          margin: 0 0 20px 0;
+          padding: 10px 20px;
+          li {
+            width: 100%;
+            height: auto;
+            display: block;
+            padding: 20px 10px;
+            .itemClass {
+              width: 100%;
+              height: auto;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap;
+              gap: 20px;
+              justify-content: space-between;
+              align-items: center;
+              .itemTitle {
+                text-align: right;
+                line-height: 1.8;
+              }
+              .todoOptions {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 15px;
+                justify-content: left;
+                align-content: end;
+                flex: 1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
